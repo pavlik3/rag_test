@@ -1,0 +1,19 @@
+# RAG на LangChain — зависимости
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-chroma>=0.2.0
+chromadb>=0.5.0
+sentence-transformers>=3.0.0
+
+# Загрузка документов
+pypdf>=4.0.0
+python-docx>=1.0.0
+unstructured>=0.15.0
+
+# Опционально: OpenAI (эмбеддинги без PyTorch — через openai; для LLM — langchain-openai)
+openai>=1.0.0
+python-dotenv>=1.0.0
+# langchain-openai>=0.2.0
+
+# Веб-интерфейс
+streamlit>=1.40.0

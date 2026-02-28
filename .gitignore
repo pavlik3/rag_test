@@ -1,0 +1,28 @@
+# Окружение и секреты
+venv/
+.venv/
+.env
+*.env
+!.env.example
+
+# Векторная БД (можно пересоздать из data/)
+chroma_db/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Документы в data/ — раскомментируйте, если не хотите выкладывать свои файлы
+# data/*.pdf
+# data/*.docx
+# data/*.txt
